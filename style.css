@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+
+header{
+   
+ 
+  
+}
+
+.container{
+
+
+  
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    
+ 
+   
+   
+}
+
+.container-left{
+   
+   
+
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-right{
+  
+   
+    height:50px;
+    display:flex;
+  mask-origin: end;
+    align-items: center;
+   
+  
+}
+
+.container ul li a{
+
+border: 3px solid red;
+
+}
+
+.shop-title{
+    margin-top: 5px;
+    color:blueviolet;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
