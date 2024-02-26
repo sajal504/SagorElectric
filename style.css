@@ -2,12 +2,13 @@ body{
     margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    background-color:cornsilk;
     
 }
 
 header{
    
- 
+ background-color: lightblue;
   
 }
 
@@ -35,22 +36,6 @@ header{
     justify-content: center;
 }
 
-.container-right{
-  
-   
-    height:50px;
-    display:flex;
-  mask-origin: end;
-    align-items: center;
-   
-  
-}
-
-.container ul li a{
-
-border: 3px solid red;
-
-}
 
 .shop-title{
     margin-top: 5px;
@@ -60,7 +45,54 @@ border: 3px solid red;
 }
 
 
+.container-right{
+  
+   
+height:50px;
+display:flex;
+justify-content: end;
+align-items: center;
+   
+  
+}
 
+.nav-item:hover{
+background-color: rgb(205, 35, 109);
+}
+
+.carousel{
+    overflow: hidden;
+    
+}
+
+
+
+.product-images{
+   
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.image-area{
+    gap:3px
+}
+
+.single-image{
+ padding: 3px;
+}
+
+
+.card-caption{
+    margin-top: 30px;
+    padding: 5px;
+    background-color:azure;
+    color:blueviolet;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
