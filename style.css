@@ -72,15 +72,19 @@ background-color: rgb(205, 35, 109);
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    align-items: center;
     
 }
 
 .image-area{
-    gap:3px
+
+    background-color: burlywood;
+   
 }
 
 .single-image{
- padding: 3px;
+    padding: 10px;
+ 
 }
 
 
@@ -94,6 +98,79 @@ background-color: rgb(205, 35, 109);
     text-align: center;
 }
 
+.author-container{
 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.author-area{
+    margin-top:30px;
+    padding: 10px;
+    
+    background-color:lightpink;
+ 
+    
+   
+  
+}
+
+
+.author-container{
+    justify-content: center;
+}
+
+
+
+.author-container-left{
+    height: 310px;
+    width: 100%;
+    background-color: aquamarine;
+    border: 2px solid lightpink;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.author-image img{
+    margin-top: .25rem;
+    align-items: end;
+    justify-content: center;
+    margin-left: 6.5rem;
+}
+
+
+
+.author-container-right{
+    height: 310px;
+    width: 100%;
+    background-color: aquamarine;
+    border: 2px solid lightpink;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: end;
+}
+
+.author-quote{
+
+    padding-top: 3rem;
+    padding-left:1rem;
+    
+   
+}
+
+
+
+
+.form-area{
+margin: top 20px;
+padding:5px;
+    background-color: rgb(184, 191, 178);
+    color: rgb(174, 3, 134);
+    align-items: center;
+    justify-content: center;
+}
 
 
