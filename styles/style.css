@@ -166,7 +166,7 @@ background-color: rgb(205, 35, 109);
 
 .form-area{
 margin: top 20px;
-
+padding:5px;
     background-color: rgb(184, 191, 178);
     color: rgb(174, 3, 134);
     align-items: center;
@@ -174,22 +174,3 @@ margin: top 20px;
 }
 
 
-form{
-    margin: 10px;
-    padding:15px;
-}
-
-
-
-footer{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-
-.footer-left{
-    float: left;
-}
-
-.footer-right{
-    float:right
-}
